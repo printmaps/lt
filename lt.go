@@ -3,8 +3,7 @@ Purpose:
 - See package description in doc.go.
 
 Releases:
-- v1.0.0 - 2019/11/12 : initial release
-- v2.0.0 - 2019/11/15 : non essential Pretty() function removed
+- v1.0.0 - 2019/11/16 : initial release
 
 Author:
 - Klaus Tockloth

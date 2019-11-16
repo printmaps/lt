@@ -6,7 +6,7 @@ Description:
 - This program shows the usage of the lt.Format() function.
 
 Releases:
-- v1.0.0 - 2019/11/12 : initial release
+- v1.0.0 - 2019/11/16 : initial release
 
 Author:
 - Klaus Tockloth
@@ -42,8 +42,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/Klaus-Tockloth/lt"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/printmaps/lt"
 )
 
 func main() {

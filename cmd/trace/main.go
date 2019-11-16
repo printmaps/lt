@@ -6,7 +6,7 @@ Description:
 - This program shows the usage of the lt.Trace() function.
 
 Releases:
-- v1.0.0 - 2019/11/12 : initial release
+- v1.0.0 - 2019/11/16 : initial release
 
 Author:
 - Klaus Tockloth
@@ -42,7 +42,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Klaus-Tockloth/lt"
+	"github.com/printmaps/lt"
 )
 
 func main() {

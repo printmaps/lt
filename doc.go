@@ -26,7 +26,7 @@ Format() usage sample:
   	"log"
   	"os"
 
-  	"github.com/Klaus-Tockloth/lt"
+  	"github.com/printmaps/lt"
   	"github.com/davecgh/go-spew/spew"
   )
 
@@ -92,7 +92,7 @@ Trace() usage sample:
   	"os"
   	"time"
 
-  	"github.com/Klaus-Tockloth/lt"
+  	"github.com/printmaps/lt"
   )
 
   func main() {
@@ -114,10 +114,10 @@ Trace() usage sample:
 
 Trace() output:
 
-  TRACE 2019/11/12 08:16:31.331325 lt.go:183: trace-entry="main.rogueOne", file="/Users/klaustockloth/go/src/github.com/Klaus-Tockloth/lt/cmd/trace/main.go", line="55"
+  TRACE 2019/11/12 08:16:31.331325 lt.go:183: trace-entry="main.rogueOne", file="/Users/klaustockloth/go/src/github.com/printmaps/lt/cmd/trace/main.go", line="55"
   TRACE 2019/11/12 08:16:31.431774 lt.go:186: trace-exit="main.rogueOne", duration="100.430077ms"
-  TRACE 2019/11/12 08:16:31.431846 lt.go:183: trace-entry="main.rogueTwo", file="/Users/klaustockloth/go/src/github.com/Klaus-Tockloth/lt/cmd/trace/main.go", line="60"
-  TRACE 2019/11/12 08:16:31.637097 lt.go:183: trace-entry="main.rogueOne", file="/Users/klaustockloth/go/src/github.com/Klaus-Tockloth/lt/cmd/trace/main.go", line="55"
+  TRACE 2019/11/12 08:16:31.431846 lt.go:183: trace-entry="main.rogueTwo", file="/Users/klaustockloth/go/src/github.com/printmaps/lt/cmd/trace/main.go", line="60"
+  TRACE 2019/11/12 08:16:31.637097 lt.go:183: trace-entry="main.rogueOne", file="/Users/klaustockloth/go/src/github.com/printmaps/lt/cmd/trace/main.go", line="55"
   TRACE 2019/11/12 08:16:31.742361 lt.go:186: trace-exit="main.rogueOne", duration="105.266626ms"
   TRACE 2019/11/12 08:16:31.742409 lt.go:186: trace-exit="main.rogueTwo", duration="310.600652ms"
 
